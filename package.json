@@ -8,7 +8,7 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "bin": {
-    "jsqna": "./index.js"
+    "jsqna": "index.js"
   },
   "keywords": [
     "javascript",
@@ -22,5 +22,14 @@
     "chalk": "^4.1.2",
     "readline-sync": "^1.4.10",
     "uuid": "^8.3.2"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FarhanMobashir/cli-app-jsqna.git"
+  },
+  "bugs": {
+    "url": "https://github.com/FarhanMobashir/cli-app-jsqna/issues"
+  },
+  "homepage": "https://github.com/FarhanMobashir/cli-app-jsqna#readme"
 }

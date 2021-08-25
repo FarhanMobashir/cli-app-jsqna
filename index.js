@@ -92,5 +92,8 @@ for (let i = 0; i < questions.length; i++) {
   play(questions[i].question, questions[i].options, questions[i].answer);
 }
 
+console.log("-------------------------");
+console.log("You made it, you scored : ", score, "out of ", questions.length);
+
 // highScores.push(user);
 // console.log(highScores);
