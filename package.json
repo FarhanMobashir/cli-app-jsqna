@@ -1,0 +1,26 @@
+{
+  "name": "jsqna",
+  "version": "1.0.0",
+  "description": "a cli app of javascript quiz",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "jsqna": "./index.js"
+  },
+  "keywords": [
+    "javascript",
+    "nodejs",
+    "cli",
+    "quiz"
+  ],
+  "author": "Mobashir Farhan",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "readline-sync": "^1.4.10",
+    "uuid": "^8.3.2"
+  }
+}
