@@ -9,7 +9,7 @@ const success = chalk.keyword("green");
 const questionColor = chalk.keyword("yellow");
 
 let user = {};
-var userName = readlineSync.question("What's your name ?   ");
+var userName = readlineSync.question("What's your name ? ");
 user.name = userName;
 user.id = uuid.v4();
 console.log("Welcome " + userName + " to ---- Do you know Mobashir ? ----");
