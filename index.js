@@ -12,11 +12,10 @@ let user = {};
 var userName = readlineSync.question("What's your name ? ");
 user.name = userName;
 user.id = uuid.v4();
-console.log("Welcome " + userName + " to ---- Do you know Mobashir ? ----");
+console.log("Welcome " + userName + " to ---- Javascript Quiz ----");
 
 let score = 0;
 
-let highScores = [];
 
 function play(question, options, answer) {
   console.log(questionColor(question));
